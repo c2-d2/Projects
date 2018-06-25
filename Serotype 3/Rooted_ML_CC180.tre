@@ -1,0 +1,397 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=301;
+	taxlabels
+	BE_1_ST180_Car_2013[&!name="•",!color=#2c7bb6]
+	BE_2_ST180_Inv_2014[&!name="•",!color=#2c7bb6]
+	BO_1_ST180_Car_2007[&!name="✦",!color=#f4a582]
+	BR_10_ST180_Inv_2009[&!name="■",!color=#ca0020]
+	BR_1_ST180_Inv_2008[&!name="■",!color=#ca0020]
+	BR_2_ST180_Inv_2008[&!name="■",!color=#ca0020]
+	BR_3_ST180_Inv_2008[&!name="■",!color=#ca0020]
+	BR_4_ST180_Inv_2008[&!name="■",!color=#ca0020]
+	BR_5_ST180_Inv_2008[&!name="■",!color=#ca0020]
+	BR_6_ST180_Inv_2008[&!name="■",!color=#ca0020]
+	BR_7_ST180_Inv_2008[&!name="✦",!color=#f4a582]
+	BR_8_ST180_Inv_2009[&!name="■",!color=#ca0020]
+	BR_9_ST180_Inv_2009[&!name="■",!color=#ca0020]
+	CZ_10_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	CZ_11_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	CZ_12_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	CZ_13_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	CZ_14_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	CZ_15_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	CZ_16_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	CZ_17_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	CZ_18_ST180_Inv_2002[&!name="•",!color=#2c7bb6]
+	CZ_19_ST180_Inv_2002[&!name="•",!color=#2c7bb6]
+	CZ_1_ST180_Inv_1995[&!name="•",!color=#2c7bb6]
+	CZ_20_ST180_Inv_2002[&!name="■",!color=#ca0020]
+	CZ_21_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_22_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_23_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_24_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_25_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_26_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_27_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	CZ_28_ST180_Inv_2004[&!name="•",!color=#2c7bb6]
+	CZ_2_ST180_Inv_1995[&!name="■",!color=#ca0020]
+	CZ_3_ST180_Inv_1996[&!name="•",!color=#2c7bb6]
+	CZ_4_ST180_Inv_1997[&!name="•",!color=#2c7bb6]
+	CZ_5_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	CZ_6_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	CZ_7_ST180_Inv_1999[&!name="■",!color=#ca0020]
+	CZ_8_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	CZ_9_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	GM_1_ST180_Car_2008[&!name="✦",!color=#f4a582]
+	GM_2_ST180_Car_2009[&!name="✦",!color=#f4a582]
+	GM_3_ST180_Car_2009[&!name="✦",!color=#f4a582]
+	GM_4_ST180_Car_2009[&!name="•",!color=#2c7bb6]
+	GM_6_ST180_Inv_2010[&!name="✦",!color=#f4a582]
+	GM_7_ST180_Car_2010[&!name="✦",!color=#f4a582]
+	HK_10_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_11_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_12_ST180_Car_2000[&!name="✦",!color=#f4a582]
+	HK_13_ST180_Car_2000[&!name="✦",!color=#f4a582]
+	HK_14_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_15_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_16_ST180_Car_2000[&!name="✦",!color=#f4a582]
+	HK_17_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_18_ST180_Inv_2001[&!name="■",!color=#ca0020]
+	HK_19_ST180_Inv_2001[&!name="■",!color=#ca0020]
+	HK_1_ST180_Inv_1996[&!name="•",!color=#2c7bb6]
+	HK_20_ST180_Car_2009[&!name="■",!color=#ca0020]
+	HK_21_ST180_Car_2009[&!name="■",!color=#ca0020]
+	HK_22_ST180_Car_2009[&!name="■",!color=#ca0020]
+	HK_23_ST180_Car_2010[&!name="•",!color=#2c7bb6]
+	HK_24_ST180_Car_2011[&!name="•",!color=#2c7bb6]
+	HK_2_ST180_Inv_1999[&!name="✦",!color=#f4a582]
+	HK_3_ST180_Inv_1999[&!name="✦",!color=#f4a582]
+	HK_4_ST180_Inv_2000[&!name="✦",!color=#f4a582]
+	HK_5_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_6_ST180_Car_2000[&!name="✦",!color=#f4a582]
+	HK_7_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_8_ST180_Car_2000[&!name="■",!color=#ca0020]
+	HK_9_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	IN_1_ST180_Unk_Unk[&!name="■",!color=#ca0020]
+	MA_1_ST3798_Inv_2002[&!name="■",!color=#ca0020]
+	MO_1_ST12319_Inv_2012[&!name="■",!color=#ca0020]
+	MY_1_ST180_Unk_Unk[&!name="✦",!color=#f4a582]
+	NE_1_ST180_Car_2003[&!name="•",!color=#2c7bb6]
+	NE_2_ST180_Car_2003[&!name="✦",!color=#f4a582]
+	NP_1_ST180_Car_2014[&!name="■",!color=#ca0020]
+	NZ_1_ST180_Inv_2007[&!name="■",!color=#ca0020]
+	NZ_2_ST180_Inv_2013[&!name="•",!color=#2c7bb6]
+	NZ_3_ST180_Inv_2013[&!name="✦",!color=#f4a582]
+	NZ_4_ST180_Inv_2014[&!name="•",!color=#2c7bb6]
+	NZ_5_ST180_Inv_2014[&!name="✦",!color=#f4a582]
+	NZ_6_ST180_Inv_2014[&!name="■",!color=#ca0020]
+	PE_1_ST5616_Inv_2007[&!name="■",!color=#ca0020]
+	PE_2_ST9060_Inv_2011[&!name="■",!color=#ca0020]
+	PE_3_ST9060_Car_Unk[&!name="■",!color=#ca0020]
+	PL_10_ST180_Inv_2012[&!name="•",!color=#2c7bb6]
+	PL_11_ST180_Inv_2012[&!name="•",!color=#2c7bb6]
+	PL_12_ST180_Inv_2013[&!name="✦",!color=#f4a582]
+	PL_1_ST180_Inv_2004[&!name="•",!color=#2c7bb6]
+	PL_2_ST180_Inv_2006[&!name="•",!color=#2c7bb6]
+	PL_3_ST180_Inv_2007[&!name="•",!color=#2c7bb6]
+	PL_4_ST180_Inv_2008[&!name="•",!color=#2c7bb6]
+	PL_5_ST180_Inv_2009[&!name="•",!color=#2c7bb6]
+	PL_6_ST180_Inv_2010[&!name="•",!color=#2c7bb6]
+	PL_7_ST180_Inv_2010[&!name="•",!color=#2c7bb6]
+	PL_8_ST180_Inv_2011[&!name="•",!color=#2c7bb6]
+	PL_9_ST180_Inv_2012[&!name="•",!color=#2c7bb6]
+	QA_1_ST180_Inv_2012[&!name="•",!color=#2c7bb6]
+	QA_2_ST180_Inv_2014[&!name="•",!color=#2c7bb6]
+	RU_1_ST180_Car_2014[&!name="•",!color=#2c7bb6]
+	SP_1_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	SP_2_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	SW_10_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	SW_11_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	SW_12_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	SW_13_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	SW_14_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	SW_15_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_16_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_17_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_18_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_19_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_1_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	SW_20_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_21_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_22_ST180_Inv_1999[&!name="•",!color=#2c7bb6]
+	SW_23_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_24_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_25_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_26_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_27_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_28_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_29_ST180_Inv_2000[&!name="•",!color=#2c7bb6]
+	SW_2_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	SW_30_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	SW_31_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	SW_32_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	SW_33_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	SW_34_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	SW_35_ST180_Inv_2001[&!name="•",!color=#2c7bb6]
+	SW_36_ST180_Inv_2003[&!name="•",!color=#2c7bb6]
+	SW_37_ST180_Inv_2006[&!name="•",!color=#2c7bb6]
+	SW_38_ST180_Inv_2007[&!name="•",!color=#2c7bb6]
+	SW_3_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	SW_4_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	SW_5_ST180_Inv_1995[&!name="•",!color=#2c7bb6]
+	SW_6_ST180_Inv_1995[&!name="•",!color=#2c7bb6]
+	SW_7_ST180_Inv_1997[&!name="•",!color=#2c7bb6]
+	SW_8_ST180_Inv_1997[&!name="•",!color=#2c7bb6]
+	SW_9_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	TH_1_ST180_Car_2008[&!name="■",!color=#ca0020]
+	TH_2_ST180_Car_2008[&!name="■",!color=#ca0020]
+	TH_3_ST180_Inv_2009[&!name="✦",!color=#f4a582]
+	TH_4_ST180_Car_2009[&!name="■",!color=#ca0020]
+	TH_5_ST180_Inv_2010[&!name="✦",!color=#f4a582]
+	TH_6_ST180_Inv_2011[&!name="✦",!color=#f4a582]
+	TH_7_ST180_Inv_2011[&!name="✦",!color=#f4a582]
+	TH_8_ST180_Inv_2012[&!name="✦",!color=#f4a582]
+	TH_9_ST180_Inv_2012[&!name="✦",!color=#f4a582]
+	TT_1_ST180_Inv_1998[&!name="•",!color=#2c7bb6]
+	TT_2_ST180_Inv_2013[&!name="✦",!color=#f4a582]
+	TT_3_ST180_Inv_Unk[&!name="•",!color=#2c7bb6]
+	TT_4_ST180_Inv_Unk[&!name="✦",!color=#f4a582]
+	TT_5_ST180_Inv_Unk[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_2_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_3_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_4_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_5_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_6_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_7_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_8_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN.SH_9_ST180_Car_2009'[&!name="•",!color=#2c7bb6]
+	'UK.EN_1_ST180_Inv_1994'[&!name="•",!color=#2c7bb6]
+	'UK.SC_1_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'UK.SC_2_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'UK.SC_3_ST180_Inv_2002'[&!name="•",!color=#2c7bb6]
+	'US.CA_15_ST180_Inv_2001'[&!name="•",!color=#2c7bb6]
+	'US.CA_32_ST180_Inv_2006'[&!name="✦",!color=#f4a582]
+	'US.CA_45_ST180_Inv_2008'[&!name="•",!color=#2c7bb6]
+	'US.CA_47_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.CA_93_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.CN_14_ST180_Inv_2000'[&!name="•",!color=#2c7bb6]
+	'US.CN_48_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.CN_49_ST180_Inv_2009'[&!name="✦",!color=#f4a582]
+	'US.CN_50_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.CN_94_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.CO_95_ST10768_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.GA_31_ST180_Inv_2005'[&!name="•",!color=#2c7bb6]
+	'US.GA_33_ST180_Inv_2006'[&!name="•",!color=#2c7bb6]
+	'US.GA_51_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.GA_52_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.GA_96_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.GA_97_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.GA_98_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.GA_99_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.GA_9_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'US.MA_114_ST180_Inv_2014'[&!name="•",!color=#2c7bb6]
+	'US.MA_115_ST180_Inv_2014'[&!name="✦",!color=#f4a582]
+	'US.MA_116_ST180_Inv_2014'[&!name="✦",!color=#f4a582]
+	'US.MA_117_ST180_Inv_2014'[&!name="✦",!color=#f4a582]
+	'US.MA_118_ST180_Inv_2014'[&!name="✦",!color=#f4a582]
+	'US.MA_16_ST180_Inv_2001'[&!name="•",!color=#2c7bb6]
+	'US.MA_17_ST180_Inv_2001'[&!name="•",!color=#2c7bb6]
+	'US.MA_18_ST180_Inv_2001'[&!name="•",!color=#2c7bb6]
+	'US.MA_23_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MA_24_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MA_25_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MA_26_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MA_27_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MA_28_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MA_39_ST180_Inv_2007'[&!name="•",!color=#2c7bb6]
+	'US.MA_53_ST180_Inv_2009'[&!name="✦",!color=#f4a582]
+	'US.MA_54_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MA_80_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_81_ST180_Inv_2011'[&!name="•",!color=#2c7bb6]
+	'US.MA_82_ST180_Inv_2011'[&!name="•",!color=#2c7bb6]
+	'US.MA_83_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_84_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_85_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_86_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_87_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_88_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.MA_89_ST180_Inv_2011'[&!name="•",!color=#2c7bb6]
+	'US.MD_100_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.MD_10_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'US.MD_19_ST180_Inv_2001'[&!name="•",!color=#2c7bb6]
+	'US.MD_29_ST180_Inv_2004'[&!name="✦",!color=#f4a582]
+	'US.MD_34_ST180_Inv_2006'[&!name="•",!color=#2c7bb6]
+	'US.MD_55_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MD_56_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MD_7_ST180_Inv_1998'[&!name="•",!color=#2c7bb6]
+	'US.MN_101_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.MN_102_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.MN_103_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.MN_11_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'US.MN_20_ST180_Inv_2002'[&!name="•",!color=#2c7bb6]
+	'US.MN_21_ST11873_Inv_2003'[&!name="•",!color=#2c7bb6]
+	'US.MN_30_ST180_Inv_2004'[&!name="•",!color=#2c7bb6]
+	'US.MN_57_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_58_ST10179_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_59_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_60_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_61_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_62_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_63_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.MN_64_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.NA_12_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'US.NA_35_ST180_Inv_2006'[&!name="•",!color=#2c7bb6]
+	'US.NA_36_ST180_Inv_2006'[&!name="•",!color=#2c7bb6]
+	'US.NA_37_ST180_Inv_2006'[&!name="✦",!color=#f4a582]
+	'US.NA_38_ST180_Inv_2006'[&!name="✦",!color=#f4a582]
+	'US.NA_41_ST180_Inv_2007'[&!name="✦",!color=#f4a582]
+	'US.NA_42_ST180_Inv_2007'[&!name="•",!color=#2c7bb6]
+	'US.NA_43_ST180_Inv_2007'[&!name="•",!color=#2c7bb6]
+	'US.NA_77_ST180_Inv_2010'[&!name="•",!color=#2c7bb6]
+	'US.NA_78_ST180_Inv_2010'[&!name="•",!color=#2c7bb6]
+	'US.NA_79_ST180_Inv_2010'[&!name="•",!color=#2c7bb6]
+	'US.NA_90_ST180_Inv_2011'[&!name="•",!color=#2c7bb6]
+	'US.NA_91_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.NA_92_ST180_Inv_2011'[&!name="✦",!color=#f4a582]
+	'US.NM_104_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.NM_105_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.NM_106_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.NM_44_ST180_Inv_2007'[&!name="•",!color=#2c7bb6]
+	'US.NM_46_ST180_Inv_2008'[&!name="•",!color=#2c7bb6]
+	'US.NM_65_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.NM_66_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.NY_107_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.NY_108_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.NY_109_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.NY_13_ST180_Inv_1999'[&!name="•",!color=#2c7bb6]
+	'US.NY_67_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.NY_68_ST180_Inv_2009'[&!name="✦",!color=#f4a582]
+	'US.OR_110_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.OR_69_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.OR_70_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.TN_111_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.TN_112_ST180_Inv_2012'[&!name="✦",!color=#f4a582]
+	'US.TN_113_ST180_Inv_2012'[&!name="•",!color=#2c7bb6]
+	'US.TN_22_ST180_Inv_2003'[&!name="•",!color=#2c7bb6]
+	'US.TN_71_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.TN_72_ST180_Inv_2009'[&!name="✦",!color=#f4a582]
+	'US.TN_73_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.TN_74_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.TN_75_ST180_Inv_2009'[&!name="✦",!color=#f4a582]
+	'US.TN_76_ST180_Inv_2009'[&!name="•",!color=#2c7bb6]
+	'US.TN_8_ST180_Inv_1998'[&!name="•",!color=#2c7bb6]
+	US_1_ST180_Inv_1993[&!name="•",!color=#2c7bb6]
+	US_2_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	US_3_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	US_4_ST180_Inv_1994[&!name="•",!color=#2c7bb6]
+	US_5_ST180_Inv_1995[&!name="•",!color=#2c7bb6]
+	US_6_ST180_Inv_1995[&!name="•",!color=#2c7bb6]
+	ZA_13_ST180_Inv_2012[&!name="•",!color=#2c7bb6]
+	ZA_14_ST180_Inv_2012[&!name="✦",!color=#f4a582]
+	ZA_15_ST180_Car_2012[&!name="•",!color=#2c7bb6]
+	ZA_17_ST180_Car_2013[&!name="•",!color=#2c7bb6]
+	ZA_18_ST180_Inv_2013[&!name="•",!color=#2c7bb6]
+	ZA_19_ST180_Inv_2013[&!name="•",!color=#2c7bb6]
+	ZA_1_ST180_Inv_2005[&!name="•",!color=#2c7bb6]
+	ZA_21_ST180_Inv_2014[&!name="•",!color=#2c7bb6]
+	ZA_22_ST180_Inv_2014[&!name="•",!color=#2c7bb6]
+	ZA_2_ST180_Inv_2005[&!name="•",!color=#2c7bb6]
+	ZA_3_ST180_Inv_2007[&!name="•",!color=#2c7bb6]
+	ZA_4_ST180_Inv_2007[&!name="•",!color=#2c7bb6]
+	ZA_5_ST180_Car_2009[&!name="•",!color=#2c7bb6]
+	ZA_7_ST180_Inv_2010[&!name="•",!color=#2c7bb6]
+	ZA_8_ST180_Inv_2010[&!name="•",!color=#2c7bb6]
+	ZA_9_ST180_Car_2010[&!name="•",!color=#2c7bb6]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (BE_1_ST180_Car_2013[&!color=#0571b0]:6.73E-4,((((((CZ_8_ST180_Inv_2000[&!color=#0571b0]:1.0E-6,CZ_14_ST180_Inv_2001[&!color=#0571b0]:1.45E-4)[&bs=100,!color=#0571b0]:3.34E-4,(PL_9_ST180_Inv_2012[&!color=#0571b0]:3.51E-4,(CZ_22_ST180_Inv_2003[&!color=#0571b0]:2.8E-5,CZ_21_ST180_Inv_2003[&!color=#0571b0]:1.41E-4)[&bs=100,!color=#0571b0]:1.83E-4)[&bs=100,!color=#0571b0]:1.4E-4)[&bs=95,!color=#0571b0]:4.2E-5,((CZ_6_ST180_Inv_1999[&!color=#0571b0]:5.05E-4,(CZ_9_ST180_Inv_2000[&!color=#0571b0]:3.51E-4,(SW_20_ST180_Inv_1999[&!color=#0571b0]:3.51E-4,(SW_4_ST180_Inv_1994[&!color=#0571b0]:3.94E-4,((CZ_11_ST180_Inv_2000[&!color=#0571b0]:3.51E-4,SW_19_ST180_Inv_1999[&!color=#0571b0]:3.65E-4)[&bs=95,!color=#0571b0]:2.8E-5,(((CZ_23_ST180_Inv_2003[&!color=#0571b0]:2.58E-4,SP_1_ST180_Inv_1994[&!color=#0571b0]:7.0E-5)[&bs=100,!color=#0571b0]:1.21E-4,SP_2_ST180_Inv_1994[&!color=#0571b0]:9.8E-5)[&bs=94,!color=#0571b0]:4.2E-5,(((SW_27_ST180_Inv_2000[&!color=#0571b0]:1.82E-4,SW_6_ST180_Inv_1995[&!color=#0571b0]:7.0E-5)[&bs=100,!color=#0571b0]:1.54E-4,PL_7_ST180_Inv_2010[&!color=#0571b0]:6.15E-4)[&bs=77,!color=#0571b0]:1.4E-5,(CZ_4_ST180_Inv_1997[&!color=#0571b0]:2.95E-4,((CZ_10_ST180_Inv_2000[&!color=#0571b0]:2.67E-4,CZ_15_ST180_Inv_2001[&!color=#0571b0]:1.97E-4)[&bs=97,!color=#0571b0]:4.2E-5,(CZ_24_ST180_Inv_2003[&!color=#0571b0]:2.11E-4,CZ_25_ST180_Inv_2003[&!color=#0571b0]:1.83E-4)[&bs=100,!color=#0571b0]:5.6E-5)[&bs=37,!color=#0571b0]:1.0E-6)[&bs=92,!color=#0571b0]:4.2E-5)[&bs=27,!color=#0571b0]:1.0E-6)[&bs=92,!color=#0571b0]:4.3E-5)[&bs=94,!color=#0571b0]:4.3E-5)[&bs=5,!color=#0571b0]:1.0E-6)[&bs=6,!color=#0571b0]:1.0E-6)[&bs=6,!color=#0571b0]:1.0E-6)[&bs=52,!color=#0571b0]:1.4E-5,CZ_13_ST180_Inv_2001[&!color=#0571b0]:3.37E-4)[&bs=32,!color=#0571b0]:1.0E-6)[&bs=15,!color=#0571b0]:1.0E-6,(((((((((('US.MA_28_ST180_Inv_2004'[&!color=#0571b0]:5.19E-4,('US.NA_42_ST180_Inv_2007'[&!color=#0571b0]:5.19E-4,((CZ_26_ST180_Inv_2003[&!color=#0571b0]:3.79E-4,PL_1_ST180_Inv_2004[&!color=#0571b0]:4.21E-4)[&bs=68,!color=#0571b0]:1.4E-5,(PL_11_ST180_Inv_2012[&!color=#0571b0]:6.16E-4,(CZ_12_ST180_Inv_2000[&!color=#0571b0]:2.67E-4,PL_2_ST180_Inv_2006[&!color=#0571b0]:6.87E-4)[&bs=91,!color=#0571b0]:1.0E-6)[&bs=22,!color=#0571b0]:1.0E-6)[&bs=100,!color=#0571b0]:2.24E-4)[&bs=93,!color=#0571b0]:4.2E-5)[&bs=96,!color=#0571b0]:4.2E-5,((('US.GA_31_ST180_Inv_2005'[&!color=#0571b0]:9.25E-4,((('US.TN_113_ST180_Inv_2012'[&!color=#0571b0]:3.08E-4,'US.NA_43_ST180_Inv_2007'[&!color=#0571b0]:2.38E-4)[&bs=100,!color=#0571b0]:3.64E-4,((CZ_18_ST180_Inv_2002[&!color=#0571b0]:4.21E-4,(SW_35_ST180_Inv_2001[&!color=#0571b0]:2.39E-4,(SW_34_ST180_Inv_2001[&!color=#0571b0]:1.26E-4,SW_29_ST180_Inv_2000[&!color=#0571b0]:1.12E-4)[&bs=100,!color=#0571b0]:8.4E-5)[&bs=100,!color=#0571b0]:1.4E-4)[&bs=100,!color=#0571b0]:1.4E-5,((CZ_1_ST180_Inv_1995[&!color=#0571b0]:2.53E-4,(CZ_5_ST180_Inv_1998[&!color=#0571b0]:1.26E-4,CZ_27_ST180_Inv_2003[&!color=#0571b0]:1.82E-4)[&bs=100,!color=#0571b0]:1.68E-4)[&bs=100,!color=#0571b0]:2.8E-5,CZ_19_ST180_Inv_2002[&!color=#0571b0]:3.65E-4)[&bs=100,!color=#0571b0]:1.54E-4)[&bs=100,!color=#0571b0]:9.8E-5)[&bs=100,!color=#0571b0]:9.8E-5,((((((((((((((((TH_8_ST180_Inv_2012[&!color=#f4a582]:1.19E-4,(TH_9_ST180_Inv_2012[&!color=#f4a582]:1.49E-4,TH_3_ST180_Inv_2009[&!color=#f4a582]:1.34E-4)[&bs=27,!color=#f4a582]:1.0E-6)[&bs=24,!color=#f4a582]:1.0E-6,(TH_7_ST180_Inv_2011[&!color=#f4a582]:1.05E-4,TH_5_ST180_Inv_2010[&!color=#f4a582]:7.4E-5)[&bs=37,!color=#f4a582]:1.5E-5)[&bs=100,!color=#f4a582]:1.19E-4,'US.NY_108_ST180_Inv_2012'[&!color=#f4a582]:2.08E-4)[&bs=100,!color=#f4a582]:1.63E-4,(((ZA_14_ST180_Inv_2012[&!color=#f4a582]:2.97E-4,((HK_12_ST180_Car_2000[&!color=#f4a582]:4.5E-5,((HK_4_ST180_Inv_2000[&!color=#f4a582]:5.9E-5,HK_13_ST180_Car_2000[&!color=#f4a582]:7.4E-5)[&bs=73,!color=#f4a582]:1.5E-5,HK_16_ST180_Car_2000[&!color=#f4a582]:5.9E-5)[&bs=33,!color=#f4a582]:1.0E-6)[&bs=100,!color=#f4a582]:7.4E-5,(HK_6_ST180_Car_2000[&!color=#f4a582]:1.64E-4,HK_3_ST180_Inv_1999[&!color=#f4a582]:1.63E-4)[&bs=94,!color=#f4a582]:1.5E-5)[&bs=97,!color=#f4a582]:4.5E-5)[&bs=3,!color=#f4a582]:1.0E-6,(('US.MA_53_ST180_Inv_2009'[&!color=#f4a582]:1.49E-4,('US.MA_115_ST180_Inv_2014'[&!color=#f4a582]:6.0E-5,'US.MA_116_ST180_Inv_2014'[&!color=#f4a582]:4.5E-5)[&bs=100,!color=#f4a582]:9.6E-5)[&bs=100,!color=#f4a582]:1.12E-4,(('US.CA_32_ST180_Inv_2006'[&!color=#f4a582]:1.93E-4,('US.NA_41_ST180_Inv_2007'[&!color=#f4a582]:7.4E-5,(('US.MA_80_ST180_Inv_2011'[&!color=#f4a582]:8.9E-5,'US.GA_99_ST180_Inv_2012'[&!color=#f4a582]:8.9E-5)[&bs=6,!color=#f4a582]:1.0E-6,(('US.TN_112_ST180_Inv_2012'[&!color=#f4a582]:1.93E-4,'US.NM_105_ST180_Inv_2012'[&!color=#f4a582]:1.34E-4)[&bs=39,!color=#f4a582]:1.0E-6,('US.NA_38_ST180_Inv_2006'[&!color=#f4a582]:1.0E-6,'US.NA_37_ST180_Inv_2006'[&!color=#f4a582]:1.5E-5)[&bs=100,!color=#f4a582]:7.4E-5)[&bs=4,!color=#f4a582]:1.0E-6)[&bs=68,!color=#f4a582]:1.5E-5)[&bs=96,!color=#f4a582]:4.5E-5)[&bs=99,!color=#f4a582]:5.9E-5,('US.CN_94_ST180_Inv_2012'[&!color=#f4a582]:2.05E-4,('US.MA_83_ST180_Inv_2011'[&!color=#f4a582]:2.23E-4,('US.MD_29_ST180_Inv_2004'[&!color=#f4a582]:1.34E-4,'US.MA_87_ST180_Inv_2011'[&!color=#f4a582]:2.83E-4)[&bs=49,!color=#f4a582]:1.0E-6)[&bs=91,!color=#f4a582]:4.5E-5)[&bs=100,!color=#f4a582]:4.7E-5)[&bs=26,!color=#f4a582]:1.0E-6)[&bs=82,!color=#f4a582]:3.0E-5)[&bs=3,!color=#f4a582]:1.0E-6,BR_7_ST180_Inv_2008[&!color=#f4a582]:4.76E-4)[&bs=94,!color=#f4a582]:4.5E-5)[&bs=99,!color=#f4a582]:4.5E-5,(NE_2_ST180_Car_2003[&!color=#f4a582]:3.7E-4,('US.MA_84_ST180_Inv_2011'[&!color=#f4a582]:2.23E-4,('US.MA_86_ST180_Inv_2011'[&!color=#f4a582]:1.0E-6,'US.MA_118_ST180_Inv_2014'[&!color=#f4a582]:1.5E-5)[&bs=100,!color=#f4a582]:1.19E-4)[&bs=100,!color=#f4a582]:1.64E-4)[&bs=96,!color=#f4a582]:4.6E-5)[&bs=99,!color=#f4a582]:4.5E-5,(('US.MA_85_ST180_Inv_2011'[&!color=#f4a582]:9.37E-4,HK_2_ST180_Inv_1999[&!color=#f4a582]:6.85E-4)[&bs=100,!color=#f4a582]:4.5E-5,(('US.TN_72_ST180_Inv_2009'[&!color=#f4a582]:2.76E-4,TH_6_ST180_Inv_2011[&!color=#f4a582]:2.84E-4)[&bs=100,!color=#f4a582]:2.0E-4,'US.TN_111_ST180_Inv_2012'[&!color=#f4a582]:9.53E-4)[&bs=100,!color=#f4a582]:1.04E-4)[&bs=100,!color=#f4a582]:1.21E-4)[&bs=100,!color=#f4a582]:2.67E-4,(BO_1_ST180_Car_2007[&!color=#f4a582]:5.21E-4,(((GM_3_ST180_Car_2009[&!color=#f4a582]:2.1E-4,GM_2_ST180_Car_2009[&!color=#f4a582]:7.4E-5)[&bs=100,!color=#f4a582]:5.7E-5,(GM_1_ST180_Car_2008[&!color=#f4a582]:1.37E-4,GM_7_ST180_Car_2010[&!color=#f4a582]:8.9E-5)[&bs=99,!color=#f4a582]:9.1E-5)[&bs=96,!color=#f4a582]:3.1E-5,GM_6_ST180_Inv_2010[&!color=#f4a582]:2.53E-4)[&bs=100,!color=#f4a582]:2.49E-4)[&bs=100,!color=#f4a582]:4.52E-4)[&bs=100,!color=#f4a582]:3.2E-5,(MY_1_ST180_Unk_Unk[&!color=#f4a582]:2.4E-4,((((NZ_3_ST180_Inv_2013[&!color=#f4a582]:2.85E-4,'US.MA_117_ST180_Inv_2014'[&!color=#f4a582]:1.36E-4)[&bs=47,!color=#f4a582]:1.0E-6,('US.NM_106_ST180_Inv_2012'[&!color=#f4a582]:1.8E-4,('US.NA_92_ST180_Inv_2011'[&!color=#f4a582]:1.5E-5,'US.NA_91_ST180_Inv_2011'[&!color=#f4a582]:1.0E-6)[&bs=100,!color=#f4a582]:1.05E-4)[&bs=21,!color=#f4a582]:1.0E-6)[&bs=66,!color=#f4a582]:1.5E-5,('US.NY_68_ST180_Inv_2009'[&!color=#f4a582]:1.35E-4,(('US.CN_49_ST180_Inv_2009'[&!color=#f4a582]:3.1E-5,('US.TN_75_ST180_Inv_2009'[&!color=#f4a582]:4.5E-5,'US.MA_88_ST180_Inv_2011'[&!color=#f4a582]:1.35E-4)[&bs=88,!color=#f4a582]:3.6E-5)[&bs=70,!color=#f4a582]:2.4E-5,(TT_4_ST180_Inv_Unk[&!color=#f4a582]:1.0E-6,TT_2_ST180_Inv_2013[&!color=#f4a582]:1.0E-6)[&bs=100,!color=#f4a582]:2.55E-4)[&bs=60,!color=#f4a582]:1.5E-5)[&bs=57,!color=#f4a582]:1.5E-5)[&bs=61,!color=#f4a582]:1.5E-5,(NZ_5_ST180_Inv_2014[&!color=#f4a582]:1.8E-4,PL_12_ST180_Inv_2013[&!color=#f4a582]:1.07E-4)[&bs=98,!color=#f4a582]:4.6E-5)[&bs=85,!color=#f4a582]:3.1E-5)[&bs=100,!color=#f4a582]:5.8E-4)[&bs=100,!color=#f4a582]:6.88E-4,((HK_5_ST180_Car_2000[&!color=#ca0020]:4.78E-4,HK_7_ST180_Car_2000[&!color=#ca0020]:3.18E-4)[&bs=100,!color=#ca0020]:0.001197,(((HK_10_ST180_Car_2000[&!color=#ca0020]:0.001508,((((BR_6_ST180_Inv_2008[&!color=#ca0020]:6.75E-4,((BR_1_ST180_Inv_2008[&!color=#ca0020]:4.45E-4,BR_2_ST180_Inv_2008[&!color=#ca0020]:3.16E-4)[&bs=100,!color=#ca0020]:2.01E-4,BR_3_ST180_Inv_2008[&!color=#ca0020]:6.88E-4)[&bs=99,!color=#ca0020]:5.9E-5)[&bs=22,!color=#ca0020]:1.0E-6,((BR_10_ST180_Inv_2009[&!color=#ca0020]:4.74E-4,BR_4_ST180_Inv_2008[&!color=#ca0020]:9.63E-4)[&bs=36,!color=#ca0020]:1.0E-6,(BR_5_ST180_Inv_2008[&!color=#ca0020]:4.74E-4,(BR_9_ST180_Inv_2009[&!color=#ca0020]:7.29E-4,BR_8_ST180_Inv_2009[&!color=#ca0020]:6.91E-4)[&bs=97,!color=#ca0020]:4.6E-5)[&bs=87,!color=#ca0020]:5.8E-5)[&bs=74,!color=#ca0020]:3.0E-5)[&bs=100,!color=#ca0020]:5.14E-4,(NZ_6_ST180_Inv_2014[&!color=#ca0020]:2.44E-4,NZ_1_ST180_Inv_2007[&!color=#ca0020]:2.44E-4)[&bs=100,!color=#ca0020]:9.05E-4)[&bs=100,!color=#ca0020]:6.8E-5,((HK_18_ST180_Inv_2001[&!color=#ca0020]:0.001004,((HK_11_ST180_Car_2000[&!color=#ca0020]:1.0E-4,HK_22_ST180_Car_2009[&!color=#ca0020]:2.01E-4)[&bs=100,!color=#ca0020]:1.4E-5,((HK_14_ST180_Car_2000[&!color=#ca0020]:4.3E-5,(HK_19_ST180_Inv_2001[&!color=#ca0020]:1.0E-4,(HK_20_ST180_Car_2009[&!color=#ca0020]:1.15E-4,HK_21_ST180_Car_2009[&!color=#ca0020]:5.7E-5)[&bs=100,!color=#ca0020]:1.0E-4)[&bs=79,!color=#ca0020]:1.4E-5)[&bs=82,!color=#ca0020]:1.4E-5,HK_8_ST180_Car_2000[&!color=#ca0020]:7.2E-5)[&bs=100,!color=#ca0020]:8.8E-5)[&bs=100,!color=#ca0020]:6.58E-4)[&bs=100,!color=#ca0020]:2.92E-4,(MO_1_ST12319_Inv_2012[&!color=#ca0020]:0.001141,CZ_7_ST180_Inv_1999[&!color=#ca0020]:7.54E-4)[&bs=100,!color=#ca0020]:3.02E-4)[&bs=34,!color=#ca0020]:4.3E-5)[&bs=99,!color=#ca0020]:1.01E-4)[&bs=76,!color=#ca0020]:4.8E-5,((HK_17_ST180_Car_2000[&!color=#ca0020]:0.001255,NP_1_ST180_Car_2014[&!color=#ca0020]:0.001121)[&bs=100,!color=#ca0020]:2.51E-4,IN_1_ST180_Unk_Unk[&!color=#ca0020]:0.001463)[&bs=46,!color=#ca0020]:2.9E-5)[&bs=73,!color=#ca0020]:2.9E-5,HK_15_ST180_Car_2000[&!color=#ca0020]:0.001248)[&bs=68,!color=#ca0020]:2.9E-5)[&bs=92,!color=#ca0020]:4.4E-5)[&bs=63,!color=#ca0020]:1.0E-6,(CZ_20_ST180_Inv_2002[&!color=#ca0020]:5.03E-4,CZ_2_ST180_Inv_1995[&!color=#ca0020]:5.18E-4)[&bs=100,!color=#ca0020]:7.19E-4)[&bs=100,!color=#ca0020]:1.51E-4,(PE_1_ST5616_Inv_2007[&!color=#ca0020]:0.001033,(PE_3_ST9060_Car_Unk[&!color=#ca0020]:1.0E-6,PE_2_ST9060_Inv_2011[&!color=#ca0020]:1.0E-6)[&bs=100,!color=#ca0020]:0.00108)[&bs=100,!color=#ca0020]:8.26E-4)[&bs=100,!color=#ca0020]:6.3E-5,MA_1_ST3798_Inv_2002[&!color=#ca0020]:0.00176)[&bs=100,!color=#ca0020]:5.68E-4,((TH_4_ST180_Car_2009[&!color=#ca0020]:2.9E-5,TH_2_ST180_Car_2008[&!color=#ca0020]:1.0E-6)[&bs=100,!color=#ca0020]:5.48E-4,TH_1_ST180_Car_2008[&!color=#ca0020]:4.09E-4)[&bs=100,!color=#ca0020]:0.00203)[&bs=100,!color=#0571b0]:0.001196,(((PL_5_ST180_Inv_2009[&!color=#0571b0]:6.29E-4,PL_6_ST180_Inv_2010[&!color=#0571b0]:5.45E-4)[&bs=100,!color=#0571b0]:4.23E-4,(CZ_28_ST180_Inv_2004[&!color=#0571b0]:3.64E-4,RU_1_ST180_Car_2014[&!color=#0571b0]:6.64E-4)[&bs=100,!color=#0571b0]:1.01E-4)[&bs=100,!color=#0571b0]:5.23E-4,((HK_1_ST180_Inv_1996[&!color=#0571b0]:6.17E-4,GM_4_ST180_Car_2009[&!color=#0571b0]:7.15E-4)[&bs=100,!color=#0571b0]:4.91E-4,(PL_8_ST180_Inv_2011[&!color=#0571b0]:8.98E-4,(ZA_5_ST180_Car_2009[&!color=#0571b0]:3.22E-4,ZA_15_ST180_Car_2012[&!color=#0571b0]:3.64E-4)[&bs=100,!color=#0571b0]:6.76E-4)[&bs=100,!color=#0571b0]:4.18E-4)[&bs=100,!color=#0571b0]:1.25E-4)[&bs=46,!color=#0571b0]:1.0E-6)[&bs=79,!color=#0571b0]:4.2E-5,BE_2_ST180_Inv_2014[&!color=#0571b0]:0.001406)[&bs=100,!color=#0571b0]:6.02E-4,('US.MN_58_ST10179_Inv_2009'[&!color=#0571b0]:5.46E-4,((CZ_17_ST180_Inv_2001[&!color=#0571b0]:4.63E-4,'US.NA_78_ST180_Inv_2010'[&!color=#0571b0]:4.6E-4)[&bs=100,!color=#0571b0]:1.35E-4,('UK.EN_1_ST180_Inv_1994'[&!color=#0571b0]:2.89E-4,('US.CA_93_ST180_Inv_2012'[&!color=#0571b0]:3.7E-4,'UK.EN.SH_7_ST180_Car_2009'[&!color=#0571b0]:1.4E-4)[&bs=100,!color=#0571b0]:2.71E-4)[&bs=100,!color=#0571b0]:1.62E-4)[&bs=100,!color=#0571b0]:7.8E-5)[&bs=99,!color=#0571b0]:1.4E-5)[&bs=95,!color=#0571b0]:4.2E-5)[&bs=82,!color=#0571b0]:1.0E-6)[&bs=75,!color=#0571b0]:4.2E-5,(TT_3_ST180_Inv_Unk[&!color=#0571b0]:6.31E-4,'US.MA_18_ST180_Inv_2001'[&!color=#0571b0]:2.24E-4)[&bs=100,!color=#0571b0]:2.38E-4)[&bs=58,!color=#0571b0]:1.4E-5,'US.GA_9_ST180_Inv_1999'[&!color=#0571b0]:6.45E-4)[&bs=14,!color=#0571b0]:1.0E-6)[&bs=47,!color=#0571b0]:1.4E-5,(('US.MN_64_ST180_Inv_2009'[&!color=#0571b0]:5.46E-4,((US_3_ST180_Inv_1994[&!color=#0571b0]:3.23E-4,(US_2_ST180_Inv_1994[&!color=#0571b0]:3.22E-4,('US.NM_66_ST180_Inv_2009'[&!color=#0571b0]:4.32E-4,'US.MD_10_ST180_Inv_1999'[&!color=#0571b0]:2.24E-4)[&bs=98,!color=#0571b0]:5.2E-5)[&bs=65,!color=#0571b0]:1.0E-6)[&bs=92,!color=#0571b0]:3.4E-5,(('US.GA_51_ST180_Inv_2009'[&!color=#0571b0]:2.53E-4,'US.MN_60_ST180_Inv_2009'[&!color=#0571b0]:3.92E-4)[&bs=85,!color=#0571b0]:2.8E-5,('US.NA_36_ST180_Inv_2006'[&!color=#0571b0]:3.48E-4,('US.MN_21_ST11873_Inv_2003'[&!color=#0571b0]:4.18E-4,'US.MN_102_ST180_Inv_2012'[&!color=#0571b0]:3.66E-4)[&bs=19,!color=#0571b0]:1.4E-5)[&bs=64,!color=#0571b0]:3.0E-5)[&bs=46,!color=#0571b0]:1.4E-5)[&bs=98,!color=#0571b0]:8.4E-5)[&bs=33,!color=#0571b0]:1.0E-6,(('US.MN_57_ST180_Inv_2009'[&!color=#0571b0]:5.6E-4,('US.NA_77_ST180_Inv_2010'[&!color=#0571b0]:9.8E-5,'US.NA_90_ST180_Inv_2011'[&!color=#0571b0]:4.2E-5)[&bs=100,!color=#0571b0]:4.76E-4)[&bs=100,!color=#0571b0]:1.4E-4,('US.TN_22_ST180_Inv_2003'[&!color=#0571b0]:4.76E-4,US_1_ST180_Inv_1993[&!color=#0571b0]:3.5E-4)[&bs=86,!color=#0571b0]:1.4E-5)[&bs=60,!color=#0571b0]:1.4E-5)[&bs=89,!color=#0571b0]:7.0E-5)[&bs=9,!color=#0571b0]:1.0E-6,(PL_10_ST180_Inv_2012[&!color=#0571b0]:5.44E-4,PL_4_ST180_Inv_2008[&!color=#0571b0]:3.02E-4)[&bs=100,!color=#0571b0]:2.87E-4)[&bs=23,!color=#0571b0]:1.0E-6,'US.GA_33_ST180_Inv_2006'[&!color=#0571b0]:4.9E-4)[&bs=6,!color=#0571b0]:1.0E-6,('US.MN_11_ST180_Inv_1999'[&!color=#0571b0]:7.3E-4,(SW_22_ST180_Inv_1999[&!color=#0571b0]:1.54E-4,'US.CA_15_ST180_Inv_2001'[&!color=#0571b0]:4.62E-4)[&bs=100,!color=#0571b0]:3.5E-4)[&bs=74,!color=#0571b0]:4.2E-5)[&bs=4,!color=#0571b0]:1.0E-6,('US.NM_44_ST180_Inv_2007'[&!color=#0571b0]:7.0E-5,'US.NA_79_ST180_Inv_2010'[&!color=#0571b0]:9.8E-5)[&bs=100,!color=#0571b0]:4.2E-4)[&bs=7,!color=#0571b0]:1.0E-6,('US.MA_27_ST180_Inv_2004'[&!color=#0571b0]:4.05E-4,US_6_ST180_Inv_1995[&!color=#0571b0]:3.79E-4)[&bs=98,!color=#0571b0]:5.8E-5)[&bs=6,!color=#0571b0]:1.1E-5,(((((PL_3_ST180_Inv_2007[&!color=#0571b0]:6.58E-4,('US.MN_30_ST180_Inv_2004'[&!color=#0571b0]:6.86E-4,(CZ_16_ST180_Inv_2001[&!color=#0571b0]:4.21E-4,'US.CN_14_ST180_Inv_2000'[&!color=#0571b0]:4.06E-4)[&bs=97,!color=#0571b0]:5.6E-5)[&bs=71,!color=#0571b0]:1.4E-5)[&bs=31,!color=#0571b0]:1.4E-5,(('UK.SC_3_ST180_Inv_2002'[&!color=#0571b0]:2.66E-4,('UK.SC_1_ST180_Inv_1999'[&!color=#0571b0]:1.0E-6,'UK.SC_2_ST180_Inv_1999'[&!color=#0571b0]:4.2E-5)[&bs=100,!color=#0571b0]:9.8E-5)[&bs=100,!color=#0571b0]:5.8E-5,('UK.EN.SH_3_ST180_Car_2009'[&!color=#0571b0]:1.68E-4,'UK.EN.SH_6_ST180_Car_2009'[&!color=#0571b0]:1.82E-4)[&bs=100,!color=#0571b0]:1.26E-4)[&bs=100,!color=#0571b0]:2.92E-4)[&bs=4,!color=#0571b0]:1.0E-6,(('US.TN_8_ST180_Inv_1998'[&!color=#0571b0]:6.88E-4,((SW_28_ST180_Inv_2000[&!color=#0571b0]:4.77E-4,('US.GA_96_ST180_Inv_2012'[&!color=#0571b0]:5.2E-4,('US.TN_71_ST180_Inv_2009'[&!color=#0571b0]:2.43E-4,'US.MA_114_ST180_Inv_2014'[&!color=#0571b0]:1.58E-4)[&bs=100,!color=#0571b0]:2.78E-4)[&bs=100,!color=#0571b0]:1.61E-4)[&bs=69,!color=#0571b0]:1.4E-5,('US.NA_12_ST180_Inv_1999'[&!color=#0571b0]:5.32E-4,('UK.EN.SH_2_ST180_Car_2009'[&!color=#0571b0]:5.74E-4,(('UK.EN.SH_4_ST180_Car_2009'[&!color=#0571b0]:5.88E-4,(NZ_2_ST180_Inv_2013[&!color=#0571b0]:4.85E-4,TT_1_ST180_Inv_1998[&!color=#0571b0]:4.48E-4)[&bs=100,!color=#0571b0]:1.12E-4)[&bs=99,!color=#0571b0]:6.1E-5,(NE_1_ST180_Car_2003[&!color=#0571b0]:5.88E-4,'UK.EN.SH_8_ST180_Car_2009'[&!color=#0571b0]:5.04E-4)[&bs=100,!color=#0571b0]:1.96E-4)[&bs=26,!color=#0571b0]:1.0E-6)[&bs=77,!color=#0571b0]:4.6E-5)[&bs=61,!color=#0571b0]:2.3E-5)[&bs=45,!color=#0571b0]:1.4E-5)[&bs=34,!color=#0571b0]:1.0E-6,'US.GA_98_ST180_Inv_2012'[&!color=#0571b0]:5.74E-4)[&bs=35,!color=#0571b0]:2.8E-5)[&bs=14,!color=#0571b0]:2.7E-5,((US_4_ST180_Inv_1994[&!color=#0571b0]:5.6E-5,US_5_ST180_Inv_1995[&!color=#0571b0]:4.2E-5)[&bs=100,!color=#0571b0]:3.36E-4,('UK.EN.SH_9_ST180_Car_2009'[&!color=#0571b0]:5.62E-4,('US.NM_46_ST180_Inv_2008'[&!color=#0571b0]:3.09E-4,'US.MA_39_ST180_Inv_2007'[&!color=#0571b0]:4.34E-4)[&bs=100,!color=#0571b0]:1.82E-4)[&bs=92,!color=#0571b0]:2.8E-5)[&bs=95,!color=#0571b0]:4.2E-5)[&bs=9,!color=#0571b0]:1.0E-6,((((SW_21_ST180_Inv_1999[&!color=#0571b0]:4.9E-4,('US.MA_26_ST180_Inv_2004'[&!color=#0571b0]:6.15E-4,'US.NY_107_ST180_Inv_2012'[&!color=#0571b0]:6.88E-4)[&bs=61,!color=#0571b0]:5.7E-5)[&bs=31,!color=#0571b0]:1.0E-6,((((('US.NY_109_ST180_Inv_2012'[&!color=#0571b0]:5.19E-4,'US.MA_89_ST180_Inv_2011'[&!color=#0571b0]:4.91E-4)[&bs=100,!color=#0571b0]:9.8E-5,('US.MA_17_ST180_Inv_2001'[&!color=#0571b0]:4.21E-4,'US.MD_56_ST180_Inv_2009'[&!color=#0571b0]:3.79E-4)[&bs=98,!color=#0571b0]:8.4E-5)[&bs=78,!color=#0571b0]:1.4E-5,('US.CN_50_ST180_Inv_2009'[&!color=#0571b0]:2.66E-4,('US.MA_24_ST180_Inv_2004'[&!color=#0571b0]:5.6E-5,'US.MA_25_ST180_Inv_2004'[&!color=#0571b0]:5.6E-5)[&bs=100,!color=#0571b0]:2.52E-4)[&bs=100,!color=#0571b0]:2.66E-4)[&bs=75,!color=#0571b0]:1.4E-5,('US.CN_48_ST180_Inv_2009'[&!color=#0571b0]:5.61E-4,((('US.OR_110_ST180_Inv_2012'[&!color=#0571b0]:3.5E-4,((TT_5_ST180_Inv_Unk[&!color=#0571b0]:5.19E-4,('US.NY_67_ST180_Inv_2009'[&!color=#0571b0]:2.81E-4,'US.CO_95_ST10768_Inv_2012'[&!color=#0571b0]:3.93E-4)[&bs=64,!color=#0571b0]:1.0E-6)[&bs=52,!color=#0571b0]:1.4E-5,(('US.MN_101_ST180_Inv_2012'[&!color=#0571b0]:2.38E-4,('US.NM_65_ST180_Inv_2009'[&!color=#0571b0]:6.5E-5,'US.NA_35_ST180_Inv_2006'[&!color=#0571b0]:9.0E-5)[&bs=84,!color=#0571b0]:1.53E-4)[&bs=44,!color=#0571b0]:2.8E-5,QA_2_ST180_Inv_2014[&!color=#0571b0]:4.07E-4)[&bs=5,!color=#0571b0]:1.0E-6)[&bs=5,!color=#0571b0]:1.0E-6)[&bs=33,!color=#0571b0]:1.4E-5,((((('US.MN_63_ST180_Inv_2009'[&!color=#0571b0]:1.54E-4,'US.MN_59_ST180_Inv_2009'[&!color=#0571b0]:2.8E-5)[&bs=100,!color=#0571b0]:8.4E-5,'US.MN_62_ST180_Inv_2009'[&!color=#0571b0]:1.12E-4)[&bs=100,!color=#0571b0]:8.4E-5,'US.CA_45_ST180_Inv_2008'[&!color=#0571b0]:2.74E-4)[&bs=100,!color=#0571b0]:7.6E-5,(('US.MN_20_ST180_Inv_2002'[&!color=#0571b0]:3.7E-5,'US.NM_104_ST180_Inv_2012'[&!color=#0571b0]:2.94E-4)[&bs=100,!color=#0571b0]:7.4E-5,('US.MA_82_ST180_Inv_2011'[&!color=#0571b0]:2.8E-4,('US.TN_74_ST180_Inv_2009'[&!color=#0571b0]:3.36E-4,('US.TN_76_ST180_Inv_2009'[&!color=#0571b0]:7.0E-5,'US.TN_73_ST180_Inv_2009'[&!color=#0571b0]:5.6E-5)[&bs=100,!color=#0571b0]:1.12E-4)[&bs=100,!color=#0571b0]:1.68E-4)[&bs=6,!color=#0571b0]:1.0E-6)[&bs=80,!color=#0571b0]:1.6E-5)[&bs=61,!color=#0571b0]:1.4E-5,('US.MD_34_ST180_Inv_2006'[&!color=#0571b0]:3.22E-4,('US.MD_19_ST180_Inv_2001'[&!color=#0571b0]:4.49E-4,'US.GA_52_ST180_Inv_2009'[&!color=#0571b0]:3.79E-4)[&bs=65,!color=#0571b0]:1.4E-5)[&bs=2,!color=#0571b0]:1.0E-6)[&bs=1,!color=#0571b0]:1.0E-6)[&bs=3,!color=#0571b0]:1.0E-6,(('US.MA_54_ST180_Inv_2009'[&!color=#0571b0]:2.66E-4,('US.OR_69_ST180_Inv_2009'[&!color=#0571b0]:3.22E-4,((ZA_19_ST180_Inv_2013[&!color=#0571b0]:1.96E-4,(ZA_17_ST180_Car_2013[&!color=#0571b0]:1.68E-4,ZA_18_ST180_Inv_2013[&!color=#0571b0]:1.82E-4)[&bs=99,!color=#0571b0]:7.0E-5)[&bs=88,!color=#0571b0]:2.8E-5,(HK_23_ST180_Car_2010[&!color=#0571b0]:2.1E-4,(HK_24_ST180_Car_2011[&!color=#0571b0]:1.54E-4,'UK.EN.SH_5_ST180_Car_2009'[&!color=#0571b0]:1.82E-4)[&bs=88,!color=#0571b0]:4.2E-5)[&bs=10,!color=#0571b0]:1.0E-6)[&bs=100,!color=#0571b0]:7.0E-5)[&bs=15,!color=#0571b0]:1.0E-6)[&bs=62,!color=#0571b0]:1.4E-5,('US.MD_7_ST180_Inv_1998'[&!color=#0571b0]:1.26E-4,(QA_1_ST180_Inv_2012[&!color=#0571b0]:3.36E-4,('US.MA_81_ST180_Inv_2011'[&!color=#0571b0]:2.65E-4,(('US.MD_55_ST180_Inv_2009'[&!color=#0571b0]:1.12E-4,'US.MD_100_ST180_Inv_2012'[&!color=#0571b0]:3.08E-4)[&bs=95,!color=#0571b0]:2.8E-5,'US.NY_13_ST180_Inv_1999'[&!color=#0571b0]:4.2E-5)[&bs=71,!color=#0571b0]:1.4E-5)[&bs=71,!color=#0571b0]:1.5E-5)[&bs=33,!color=#0571b0]:1.0E-6)[&bs=99,!color=#0571b0]:8.4E-5)[&bs=21,!color=#0571b0]:1.0E-6)[&bs=66,!color=#0571b0]:2.8E-5)[&bs=59,!color=#0571b0]:1.4E-5)[&bs=80,!color=#0571b0]:9.8E-5,(((ZA_7_ST180_Inv_2010[&!color=#0571b0]:3.78E-4,ZA_3_ST180_Inv_2007[&!color=#0571b0]:5.74E-4)[&bs=93,!color=#0571b0]:2.8E-5,(ZA_9_ST180_Car_2010[&!color=#0571b0]:1.96E-4,(ZA_21_ST180_Inv_2014[&!color=#0571b0]:4.06E-4,(ZA_22_ST180_Inv_2014[&!color=#0571b0]:3.08E-4,(ZA_13_ST180_Inv_2012[&!color=#0571b0]:3.22E-4,ZA_2_ST180_Inv_2005[&!color=#0571b0]:2.94E-4)[&bs=89,!color=#0571b0]:1.4E-5)[&bs=82,!color=#0571b0]:1.4E-5)[&bs=80,!color=#0571b0]:1.4E-5)[&bs=100,!color=#0571b0]:1.12E-4)[&bs=93,!color=#0571b0]:5.6E-5,ZA_4_ST180_Inv_2007[&!color=#0571b0]:5.18E-4)[&bs=100,!color=#0571b0]:3.64E-4)[&bs=33,!color=#0571b0]:1.0E-6)[&bs=11,!color=#0571b0]:1.0E-6,(ZA_1_ST180_Inv_2005[&!color=#0571b0]:6.71E-4,NZ_4_ST180_Inv_2014[&!color=#0571b0]:8.13E-4)[&bs=80,!color=#0571b0]:4.3E-5)[&bs=22,!color=#0571b0]:1.0E-6,('US.GA_97_ST180_Inv_2012'[&!color=#0571b0]:3.78E-4,('US.MN_103_ST180_Inv_2012'[&!color=#0571b0]:3.5E-4,'US.MN_61_ST180_Inv_2009'[&!color=#0571b0]:9.8E-5)[&bs=100,!color=#0571b0]:4.76E-4)[&bs=100,!color=#0571b0]:1.54E-4)[&bs=78,!color=#0571b0]:4.2E-5)[&bs=0,!color=#0571b0]:1.0E-6)[&bs=78,!color=#0571b0]:4.2E-5,(('US.MA_23_ST180_Inv_2004'[&!color=#0571b0]:5.05E-4,'US.MA_16_ST180_Inv_2001'[&!color=#0571b0]:6.3E-4)[&bs=40,!color=#0571b0]:1.0E-6,(HK_9_ST180_Inv_2000[&!color=#0571b0]:4.61E-4,(((SW_37_ST180_Inv_2006[&!color=#0571b0]:3.22E-4,SW_32_ST180_Inv_2001[&!color=#0571b0]:2.8E-4)[&bs=92,!color=#0571b0]:1.4E-5,SW_26_ST180_Inv_2000[&!color=#0571b0]:2.94E-4)[&bs=97,!color=#0571b0]:4.2E-5,((SW_3_ST180_Inv_1994[&!color=#0571b0]:1.54E-4,(CZ_3_ST180_Inv_1996[&!color=#0571b0]:1.0E-6,SW_2_ST180_Inv_1994[&!color=#0571b0]:1.0E-6)[&bs=100,!color=#0571b0]:1.96E-4)[&bs=100,!color=#0571b0]:9.8E-5,(((SW_15_ST180_Inv_1999[&!color=#0571b0]:2.24E-4,((SW_23_ST180_Inv_2000[&!color=#0571b0]:2.94E-4,(SW_9_ST180_Inv_1998[&!color=#0571b0]:1.0E-6,SW_10_ST180_Inv_1998[&!color=#0571b0]:5.6E-5)[&bs=100,!color=#0571b0]:1.54E-4)[&bs=91,!color=#0571b0]:2.8E-5,(((SW_30_ST180_Inv_2001[&!color=#0571b0]:1.0E-6,SW_24_ST180_Inv_2000[&!color=#0571b0]:1.0E-6)[&bs=100,!color=#0571b0]:1.96E-4,(SW_38_ST180_Inv_2007[&!color=#0571b0]:3.22E-4,SW_11_ST180_Inv_1998[&!color=#0571b0]:9.8E-5)[&bs=100,!color=#0571b0]:4.2E-5)[&bs=93,!color=#0571b0]:4.2E-5,(SW_25_ST180_Inv_2000[&!color=#0571b0]:1.26E-4,SW_12_ST180_Inv_1998[&!color=#0571b0]:5.6E-5)[&bs=100,!color=#0571b0]:9.8E-5)[&bs=54,!color=#0571b0]:1.0E-6)[&bs=13,!color=#0571b0]:1.0E-6)[&bs=63,!color=#0571b0]:1.4E-5,((SW_17_ST180_Inv_1999[&!color=#0571b0]:2.24E-4,((SW_8_ST180_Inv_1997[&!color=#0571b0]:2.24E-4,SW_1_ST180_Inv_1994[&!color=#0571b0]:5.46E-4)[&bs=25,!color=#0571b0]:1.0E-6,(SW_7_ST180_Inv_1997[&!color=#0571b0]:3.78E-4,(SW_13_ST180_Inv_1998[&!color=#0571b0]:4.2E-5,SW_16_ST180_Inv_1999[&!color=#0571b0]:9.8E-5)[&bs=100,!color=#0571b0]:1.54E-4)[&bs=24,!color=#0571b0]:1.0E-6)[&bs=31,!color=#0571b0]:1.0E-6)[&bs=97,!color=#0571b0]:4.2E-5,(SW_36_ST180_Inv_2003[&!color=#0571b0]:5.6E-4,(SW_14_ST180_Inv_1998[&!color=#0571b0]:1.75E-4,SW_5_ST180_Inv_1995[&!color=#0571b0]:2.24E-4)[&bs=100,!color=#0571b0]:1.89E-4)[&bs=48,!color=#0571b0]:1.0E-6)[&bs=7,!color=#0571b0]:1.0E-6)[&bs=55,!color=#0571b0]:1.0E-6,(SW_18_ST180_Inv_1999[&!color=#0571b0]:2.47E-4,SW_31_ST180_Inv_2001[&!color=#0571b0]:3.78E-4)[&bs=98,!color=#0571b0]:3.3E-5)[&bs=39,!color=#0571b0]:1.0E-6)[&bs=71,!color=#0571b0]:1.4E-5)[&bs=100,!color=#0571b0]:7.0E-5)[&bs=88,!color=#0571b0]:2.8E-5)[&bs=26,!color=#0571b0]:1.0E-6)[&bs=62,!color=#0571b0]:2.8E-5)[&bs=17,!color=#0571b0]:1.0E-6,('US.OR_70_ST180_Inv_2009'[&!color=#0571b0]:7.0E-4,ZA_8_ST180_Inv_2010[&!color=#0571b0]:5.74E-4)[&bs=26,!color=#0571b0]:1.4E-5)[&bs=68,!color=#0571b0]:4.2E-5,SW_33_ST180_Inv_2001[&!color=#0571b0]:1.82E-4)[&bs=55,!color=#0571b0]:1.3E-5,'US.CA_47_ST180_Inv_2009'[&!color=#0571b0]:5.04E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set colour.order.bs="bs:0,1,2,3,4,5,6,7,9,10,11,13,14,15,17,19,21,22,23,24,25,26,27,31,32,33,34,35,36,37,39,40,44,45,46,47,48,49,52,54,55,57,58,59,60,61,62,63,64,65,66,68,69,70,71,73,74,75,76,77,78,79,80,82,84,85,86,87,88,89,91,92,93,94,95,96,97,98,99,100";
+	set colour.scheme.bs="bs:HSBDiscrete{hue,1,0.0,1.0,0.6,0.6,0.4,0.8}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bs";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=22500;
+	set polarLayout.rootLength=125;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=27.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
