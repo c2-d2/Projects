@@ -1,0 +1,3 @@
+Supplemental data for Global emergence and population dynamics of divergent serotype 3 CC180 pneumococci 
+
+Taj Azarian1, Patrick K Mitchell1, Maria Georgieva1, Claudette M Thompson1, Amel Ghouila2, Andrew J Pollard3, Anna von Gottberg4, Mignon du Plessis4, Martin Antonio5, Brenda A Kwambana-Adams5, Stuart C Clarke6,7, Dean Everett8, Jennifer Cornick9, Ewa Sadowy10, Waleria Hryniewicz10, Anna Skoczynska10, Jennifer C Moïsi11, Lesley McGee12, Bernard Beall12, Benjamin J Metcalf12, Robert F Breiman13, PL Ho14, Raymond Reid15, Kate L O’Brien15, Rebecca A Gladstone16, Stephen D Bentley16, William P Hanage1
