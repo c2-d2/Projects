@@ -1,0 +1,14 @@
+
+
+
+
+Information that can be shared (IRB and MTA approval):
+Metadata on each strain including:
+a.Anonymized code for each practice (ie Community A, B, C, etc for each recruitment location)
+b.Month and year of isolation
+c.Host age in half-year increments
+d.Host gender
+e.Healthy visit vs. sick visit
+f.Strain Serotype
+g.Strain MLST (Multilocus sequence typing)
+h.Strain Antibiotic resistance (MIC) levels
