@@ -1,9 +1,0 @@
-"Model","nloci","adj.r.squared","SSE","RMSE"
-"Accesory genome (NFDS)",2371,0.223,0.015,0.024
-"Accesory genome (Pro rata)",2371,0.022,0.028,0.032
-"Accesory genome (NFDS) SA",2371,0.08,0.024,0.03
-"Accesory genome (Prorata) SA",2371,-0.04,0.03,0.034
-"Core genome (NFDS)",62653,0.173,0.016,0.024
-"Core genome (Pro rata)",62653,0.022,0.028,0.032
-"Metabolic loci (NFDS)",22433,0.15,0.017,0.025
-"Metabolic loci (Pro rata)",22433,0.022,0.028,0.032
